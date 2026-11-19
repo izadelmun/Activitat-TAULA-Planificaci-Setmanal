@@ -1,0 +1,249 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px 3.2%;
+    background-color: #f2f1ed;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 20px;
+    color: #304b59;
+}
+
+main {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin: 0;
+}
+
+th, td {
+    border: 1px solid #b8c2c9;
+    padding: 5px 6px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.azul {
+    background-color: #c4dce5;
+}
+
+.azul-oscuro {
+    background-color: #456b7a;
+    color: white;
+}
+
+.amarillo {
+    background-color: #f0e4c8;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 18px;
+    padding: 7px;
+}
+
+em {
+    font-weight: normal;
+}
+
+.competencias td,
+.competencias th {
+    height: 47px;
+}
+
+.competencia1 {
+    width: 15.6%;
+}
+
+.competencia2 {
+    width: 32.9%;
+}
+
+.competencia3 {
+    width: 24%;
+}
+
+.competencia4 {
+    width: 27.5%;
+}
+
+.metodologia th {
+    background-color: #dce8ed;
+    text-align: center;
+    padding: 6px 5px;
+}
+
+.metodologia td {
+    background-color: #fafafa;
+}
+
+.abp {
+    width: 4.5%;
+}
+
+.flipped {
+    width: 14.6%;
+}
+
+.gamificacion {
+    width: 11%;
+}
+
+.aps {
+    width: 4.6%;
+}
+
+.byod {
+    width: 6.5%;
+}
+
+.robotica {
+    width: 8.3%;
+}
+
+.programacion {
+    width: 12%;
+}
+
+.colaborativo {
+    width: 16.5%;
+}
+
+.casilla {
+    width: 2.75%;
+}
+
+.recurso1 {
+    width: 8%;
+}
+
+.recurso2 {
+    width: 25.5%;
+}
+
+.recurso3 {
+    width: 15.7%;
+}
+
+.recurso4 {
+    width: 23.7%;
+}
+
+.recurso5 {
+    width: 5.5%;
+}
+
+.recurso6 {
+    width: 21.6%;
+}
+
+.rosa {
+    background-color: #e8cbd2;
+}
+
+.lila {
+    background-color: #d4c9e4;
+}
+
+.rojo {
+    background-color: #c77d83;
+}
+
+.verde {
+    background-color: #c9dfd5;
+}
+
+.espacios .amarillo {
+    background-color: #f0e4c8;
+}
+
+.naranja {
+    background-color: #e8c9a7;
+}
+
+.espacios th {
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+}
+
+.espacios .huecos td {
+    height: 70px;
+    background-color: #fafafa;
+}
+
+.contexto th {
+    background-color: #e5e0ed;
+    text-align: center;
+    padding: 6px;
+    white-space: normal;
+    font-size: 14px;
+}
+
+.contexto td {
+    background-color: #fafafa;
+}
+
+.actividades .cabecera th {
+    background-color: #c4dce5;
+    text-align: center;
+    font-size: 15px;
+    height: 70px;
+}
+
+.actividades .fila-actividad td {
+    height: 48px;
+    background-color: #fafafa;
+}
+
+.actividad1 {
+    width: 3.6%;
+}
+
+.actividad2 {
+    width: 6.3%;
+}
+
+.actividad3 {
+    width: 47.8%;
+}
+
+.actividad4 {
+    width: 9%;
+}
+
+.actividad5 {
+    width: 11%;
+}
+
+.actividad6 {
+    width: 22.3%;
+}
+
+.metodologia .casilla {
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contexto td {
+    min-width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
