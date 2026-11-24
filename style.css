@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f3f1f6;
+    font-family: Arial, sans-serif;
+    color: #343746;
+}
+
+h1 {
+    text-align: center;
+    color: #535477;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #85849a;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    table-layout: fixed;
+}
+
+.horario th,
+.horario td {
+    border: 2px solid white;
+    padding: 12px 8px;
+    text-align: center;
+    height: 85px;
+    font-size: 14px;
+}
+
+.horario th {
+    background-color: #e2e0ed;
+    color: #535477;
+}
+
+.horario tr:first-child th {
+    background-color: #696b91;
+    color: white;
+    height: 55px;
+    font-size: 15px;
+}
+
+.horario .hora {
+    background-color: #535477;
+    color: white;
+    width: 12%;
+}
+
+.bases {
+    background-color: #d5e6f5;
+}
+
+.proyecto {
+    background-color: #eadcf4;
+}
+
+.entornos {
+    background-color: #d9eadf;
+}
+
+.marcas {
+    background-color: #f7e7c9;
+}
+
+.ingles {
+    background-color: #f3dce4;
+}
+
+.sistemas {
+    background-color: #dcdcf2;
+}
+
+.programacion {
+    background-color: #f0dfd2;
+}
+
+.libre {
+    background-color: #ececf0;
+    color: #777783;
+    font-style: italic;
+}
+
+.patio th,
+.patio td {
+    background-color: #f1d5ad;
+    color: #805d36;
+    height: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.leyenda {
+    background-color: white;
+    margin-top: 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #535477;
+    font-size: 18px;
+    border-bottom: 2px solid #e2e0ed;
+    padding-bottom: 10px;
+}
+
+.colores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 25px;
+}
+
+.colores div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.color {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.bases-color {
+    background-color: #d5e6f5;
+}
+
+.proyecto-color {
+    background-color: #eadcf4;
+}
+
+.entornos-color {
+    background-color: #d9eadf;
+}
+
+.marcas-color {
+    background-color: #f7e7c9;
+}
+
+.ingles-color {
+    background-color: #f3dce4;
+}
+
+.sistemas-color {
+    background-color: #dcdcf2;
+}
+
+.programacion-color {
+    background-color: #f0dfd2;
+}
+
+.libre-color {
+    background-color: #ececf0;
+}

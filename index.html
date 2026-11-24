@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi horario semanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>MI HORARIO SEMANAL</h1>
+    <p class="subtitulo">1.º CFGS · Curso 2026-2027</p>
+
+    <main>
+
+        <table class="horario">
+
+            <tr>
+                <th class="hora">HORA</th>
+                <th>LUNES</th>
+                <th>MARTES</th>
+                <th>MIÉRCOLES</th>
+                <th>JUEVES</th>
+                <th>VIERNES</th>
+            </tr>
+
+            <tr>
+                <th>15:10<br>16:05</th>
+                <td class="libre">Hora libre</td>
+                <td class="libre">Hora libre</td>
+                <td class="bases" rowspan="2">Bases de datos</td>
+                <td class="bases">Bases de datos</td>
+                <td class="bases" rowspan="2">Bases de datos</td>
+            </tr>
+
+            <tr>
+                <th>16:05<br>17:00</th>
+                <td class="proyecto">Proyecto<br>Intermodular</td>
+                <td class="entornos">Entornos de<br>Desarrollo</td>
+                <td class="marcas">Lenguajes de<br>marcas</td>
+            </tr>
+
+            <tr>
+                <th>17:00<br>17:55</th>
+                <td class="entornos">Entornos de<br>Desarrollo</td>
+                <td class="ingles">Inglés profesional</td>
+                <td class="marcas">Lenguajes de<br>marcas</td>
+                <td class="libre">Hora libre</td>
+                <td class="marcas">Lenguajes de<br>marcas</td>
+            </tr>
+
+            <tr class="patio">
+                <th>17:55<br>18:15</th>
+                <td colspan="5">PATIO</td>
+            </tr>
+
+            <tr>
+                <th>18:15<br>19:10</th>
+                <td class="sistemas" rowspan="3">Sistemas<br>Informáticos</td>
+                <td class="ingles">Inglés profesional</td>
+                <td class="programacion" rowspan="3">Programación</td>
+                <td class="sistemas" rowspan="2">Sistemas<br>Informáticos</td>
+                <td class="programacion" rowspan="3">Programación</td>
+            </tr>
+
+            <tr>
+                <th>19:10<br>20:05</th>
+                <td class="programacion" rowspan="2">Programación</td>
+            </tr>
+
+            <tr>
+                <th>20:05<br>21:00</th>
+                <td class="entornos">Entornos de<br>Desarrollo</td>
+            </tr>
+
+        </table>
+
+        <section class="leyenda">
+
+            <h2>ASIGNATURAS</h2>
+
+            <div class="colores">
+                <div><span class="color bases-color"></span>Bases de datos</div>
+                <div><span class="color proyecto-color"></span>Proyecto Intermodular</div>
+                <div><span class="color entornos-color"></span>Entornos de Desarrollo</div>
+                <div><span class="color marcas-color"></span>Lenguajes de marcas</div>
+                <div><span class="color ingles-color"></span>Inglés profesional</div>
+                <div><span class="color sistemas-color"></span>Sistemas Informáticos</div>
+                <div><span class="color programacion-color"></span>Programación</div>
+                <div><span class="color libre-color"></span>Hora libre</div>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
